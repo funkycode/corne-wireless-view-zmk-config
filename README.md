@@ -1,5 +1,7 @@
 # Wireless Corne ZMK Configuration
 
+![keyboard layout](keymap-drawer/corne.svg)
+
 ## Thanks to:
 
 - [foostan](https://github.com/foostan/crkbd) for corne keyboards
