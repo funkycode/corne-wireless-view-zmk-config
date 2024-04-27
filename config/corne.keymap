@@ -59,7 +59,7 @@ behaviors {
 
                         bindings = <
 //    ┌────────┬──────────┬──────────┬──────────┬──────────┬──────────┐               ┌──────┬──────┬──────┬──────┬─────┬──────┐
-//    │  tab   │    !     │    @     │    #     │    $     │    %     │               │  ^   │  &   │  *   │  (   │  )  │ bspc │
+//    │   ~    │    !     │    @     │    #     │    $     │    %     │               │  ^   │  &   │  *   │  (   │  )  │ bspc │
 //    ├────────┼──────────┼──────────┼──────────┼──────────┼──────────┤               ├──────┼──────┼──────┼──────┼─────┼──────┤
 //    │ bt_clr │ bt_sel 0 │ bt_sel 1 │ bt_sel 2 │ bt_sel 3 │ bt_sel 4 │               │ left │ down │  up  │ rght │     │      │
 //    ├────────┼──────────┼──────────┼──────────┼──────────┼──────────┤               ├──────┼──────┼──────┼──────┼─────┼──────┤
@@ -67,7 +67,7 @@ behaviors {
 //    └────────┴──────────┴──────────┴──────────┼──────────┼──────────┼─────┐   ┌─────┼──────┼──────┼──────┴──────┴─────┴──────┘
 //                                              │          │          │ spc │   │ ent │      │ ralt │                           
 //                                              └──────────┴──────────┴─────┘   └─────┴──────┴──────┘                           
-  &kp TAB      &kp EXCL       &kp AT         &kp HASH       &kp DLLR       &kp PRCNT                                &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR   &kp BSPC
+  &kp TILDE    &kp EXCL       &kp AT         &kp HASH       &kp DLLR       &kp PRCNT                                &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR   &kp BSPC
   &bt BT_CLR   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                             &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans     &trans  
   &kp LSHFT    &trans         &trans         &trans         &trans         &trans                                   &kp HOME    &kp PG_DN   &kp PG_UP   &kp END     &trans     &trans  
                                                             &trans         &trans         &kp SPACE       &kp RET   &trans      &kp RALT                                               
@@ -79,7 +79,7 @@ behaviors {
 
                         bindings = <
 //    ┌──────┬──────┬──────┬──────┬──────┬─────┐               ┌─────┬──────┬───┬───┬───┬──────┐
-//    │  ~   │  1   │  2   │  3   │  4   │  5  │               │  6  │  7   │ 8 │ 9 │ 0 │ bspc │
+//    │  `   │  1   │  2   │  3   │  4   │  5  │               │  6  │  7   │ 8 │ 9 │ 0 │ bspc │
 //    ├──────┼──────┼──────┼──────┼──────┼─────┤               ├─────┼──────┼───┼───┼───┼──────┤
 //    │ lctl │ next │ vold │ volu │ play │     │               │  -  │  =   │ [ │ ] │ \ │  `   │
 //    ├──────┼──────┼──────┼──────┼──────┼─────┤               ├─────┼──────┼───┼───┼───┼──────┤
@@ -87,7 +87,7 @@ behaviors {
 //    └──────┴──────┴──────┴──────┼──────┼─────┼─────┐   ┌─────┼─────┼──────┼───┴───┴───┴──────┘
 //                                │ lgui │     │ spc │   │ ent │     │ ralt │                   
 //                                └──────┴─────┴─────┘   └─────┴─────┴──────┘                   
-  &kp TILDE   &kp N1       &kp N2         &kp N3         &kp N4     &kp N5                             &kp N6      &kp N7      &kp N8     &kp N9     &kp N0     &kp BSPC 
+  &kp GRAVE   &kp N1       &kp N2         &kp N3         &kp N4     &kp N5                             &kp N6      &kp N7      &kp N8     &kp N9     &kp N0     &kp BSPC 
   &kp LCTRL   &kp C_NEXT   &kp C_VOL_DN   &kp C_VOL_UP   &kp C_PP   &trans                             &kp MINUS   &kp EQUAL   &kp LBKT   &kp RBKT   &kp BSLH   &kp GRAVE
   &kp LSHFT   &trans       &trans         &trans         &trans     &trans                             &kp UNDER   &kp PLUS    &kp LBRC   &kp RBRC   &kp PIPE   &kp DEL  
                                                          &kp LGUI   &trans   &kp SPACE       &kp RET   &trans      &kp RALT                                              
