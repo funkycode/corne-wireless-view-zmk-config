@@ -44,7 +44,7 @@ layers:
   - Raise
   - RALT
   Lower:
-  - TAB
+  - '~'
   - '!'
   - '@'
   - '#'
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - RALT
   Raise:
-  - '~'
+  - '`'
   - '1'
   - '2'
   - '3'
