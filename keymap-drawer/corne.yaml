@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: PSCRN, h: P}
   - BSPC
   - LCTRL
   - {t: A, h: LGUI}
