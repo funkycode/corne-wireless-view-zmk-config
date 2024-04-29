@@ -72,7 +72,7 @@ behaviors {
   &kp LSHFT    &trans         &trans         &trans         &trans         &trans                                   &kp HOME    &kp PG_DN   &kp PG_UP   &kp END     &trans     &trans  
                                                             &trans         &trans         &kp SPACE       &kp RET   &trans      &kp RALT                                               
                         >;
-                ;
+                };
 
                 raise_layer {
                         display-name = "Raise";
