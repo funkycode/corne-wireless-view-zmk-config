@@ -100,11 +100,11 @@ layers:
   - '0'
   - BSPC
   - LCTRL
+  - PREV
   - PP
+  - NEXT
   - VOL DN
   - VOL UP
-  - PREV
-  - NEXT
   - '-'
   - '='
   - '['
