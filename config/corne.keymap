@@ -74,9 +74,9 @@
                 map = <INPUT_REL_X INPUT_REL_HWHEEL>
                     , <INPUT_REL_Y INPUT_REL_WHEEL>;
         };
-   tball1_mmv_il {
+   trackball_mmv_il {
                 compatible = "zmk,input-listener";
-                device = <&tball1_split>;
+                device = <&trackball_split>;
                 input-processors = <&zip_zxy>, <&zip_report_rate_limit 8>;
                 precise {
         //                layers = <NUM>;
