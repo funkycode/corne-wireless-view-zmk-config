@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
   Base:
   - TAB
@@ -100,11 +100,11 @@ layers:
   - '0'
   - BSPC
   - LCTRL
+  - PREV
   - PP
+  - NEXT
   - VOL DN
   - VOL UP
-  - PREV
-  - NEXT
   - '-'
   - '='
   - '['
