@@ -33,5 +33,20 @@ manifest:
     - name: zmk-split-peripheral-bonding-tweak
       remote: badjeff
       revision: main
+    - name: zmk-kscan-blackout
+      remote: badjeff
+      revision: main
+    - name: zmk-input-processor-mixer
+      remote: badjeff
+      revision: main
+    - name: zmk-input-processor-report-rate-limit
+      remote: badjeff
+      revision: main
+    - name: zmk-input-processor-xyz
+      remote: badjeff
+      revision: main
+    - name: kb_zmk_ps2_mouse_trackpoint_driver
+      remote: badjeff
+      revision: main
   self:
     path: config
