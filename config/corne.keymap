@@ -93,5 +93,12 @@ behaviors {
                                                    &kp LGUI       &trans         &kp SPACE       &kp RET   &trans      &kp RALT
                         >;
                 };
+                extra_layer {
+                  status = "reserved";
+                };
+                extra_layer2 {
+                  status = "reserved";
+                };
+                
         };
 };
